@@ -15,7 +15,7 @@ def log_action(action):
     st.session_state.logs.append({'Action': action, 'Timestamp': timestamp})
 
 # UI Titel
-st.title("🕰️ Koekjesmonstergame Module 4")
+st.title("🕰️ Koekjesgame Module 4")
 
 col1, col2, col3 = st.columns(3)
 
@@ -33,7 +33,7 @@ if add_button and new_button_name:
 # 📝 Weergeven van dynamische knoppen
 if st.session_state.dynamic_buttons:
     st.divider()
-    st.subheader("🎛️ Dynamische Bedieningspaneel")
+    st.subheader("🎛️ Dynamisch Bedieningspaneel")
     
     dynamic_cols = st.columns(3)
     for i, (button_name, button_color) in enumerate(st.session_state.dynamic_buttons.items()):
