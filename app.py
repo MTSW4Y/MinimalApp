@@ -15,7 +15,7 @@ def log_action(action):
     st.session_state.logs.append({'Action': action, 'Timestamp': timestamp})
 
 # UI Titel
-st.title("🕰️ Koekjesgame Module 4")
+st.title("🕰️ Koekjesmonstergame Module 4")
 
 col1, col2, col3 = st.columns(3)
 
